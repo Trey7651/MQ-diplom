@@ -25,7 +25,7 @@
     /* header */
 
     .header {
-       background-image: url("../images/banner-mobile.jpg");
+       background-image: url("../images/banner-bg.jpg");
        background-repeat: no-repeat;
        background-position: center center;
        background-size: cover;
@@ -33,7 +33,7 @@
        position: relative;
        text-align: center;
        width: 100%;
-       padding-top: 8.3%;
+       padding-top: 1%;
 
     }
 
@@ -1205,10 +1205,11 @@
           flex-wrap: wrap;
           justify-content: space-between;
           align-items: flex-start;
+          width: 50%;
        }
 
        .store-list {
-          width: calc(50% - 23px);
+          width: 30%;
           margin-bottom: 28px;
           margin-right: 23px;
           padding-right: 23px;
@@ -1222,8 +1223,6 @@
 
        .store-body {
           width: 100%;
-          margin-right: -23px;
-          margin-left: -23px;
        }
 
        .footer {
