@@ -142,7 +142,7 @@
     /*popup*/
     .popup {
       display: none;
-      position: absolute;
+      position: fixed;
       left: 0;
       right: 0;
       top: 0;
@@ -152,10 +152,10 @@
    }
    
    .modal-window {
-      margin-top: 981px;
+      justify-content: space-between;
+      align-items: center;
       margin-left: auto;
       margin-right: auto;
-      width: 390px;
       height: 590px;
       background: #ffffff;
       padding: 52px 27px;
@@ -343,6 +343,7 @@
     .trend-list {
        display: flex;
        position: relative;
+       align-items: end;
        min-height: 231px;
        margin-bottom: 2px;
        font-size: 16px;
@@ -404,6 +405,7 @@
        text-transform: uppercase;
        font-family: OpenSans-Bold;
        font-size: 14px;
+       margin-right: 10%;
     }
 
     .title-description-trends {
@@ -466,6 +468,7 @@
     .link-list-item {
        text-decoration: none;
        color: #b59f5b;
+       margin-right: 10%;
     }
 
     .link-list-item:hover {
@@ -786,6 +789,7 @@
        border-bottom: 1px solid #eeeeee;
        font-size: 14px;
        font-family: OpenSans-Bold;
+       padding: 10px 0;
     }
 
     .categories-count {
@@ -1204,8 +1208,9 @@
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
-          align-items: flex-start;
+          align-items: center;
           width: 50%;
+          max-width: 1170px;
        }
 
        .store-list {
@@ -1227,6 +1232,7 @@
 
        .footer {
           margin-top: 50px;
+          max-width: 1170px;
        }
 
        .copyright {
